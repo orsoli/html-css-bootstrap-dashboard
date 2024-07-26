@@ -17,3 +17,7 @@
 .my-bg{
     background-color: #f7f7f7;
 }
+
+.my-hover:hover button{
+    background-color: rgb(238, 238, 238);
+}
