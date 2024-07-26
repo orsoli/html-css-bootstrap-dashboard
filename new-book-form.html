@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="index-style.css">
 </head>
 <body>
-     <!-- Header  -->
-     <header>
+    <!-- Header  -->
+    <header>
         <!-- Navbar   -->
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
@@ -54,9 +54,28 @@
             </div>
           </nav>
     </header>
+    <!-- Main part  -->
+     <main class="container">
+        <header class="my-3">
+            <h1>Nuovo Libro</h1>
+        </header>
+        <!-- Main form  -->
+        <form action="">
+            <div class="row">
+                <!-- Author FirstName -->
+                <div class="col col-6">
+                    <label for="Name" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" id="Name" placeholder="Inserisci il nome dell'autore">
+                </div>
+                <!-- Author LastName  -->
+                <div class="col col-6">
+                    <label for="lastname" class="form-label">Cognome Autore</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Inserisci il cognome dell'autore">
+                </div>
+            </div>
+        </form>
+     </main>
 
-
-    
     <!-- Script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
