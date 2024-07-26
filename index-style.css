@@ -21,3 +21,8 @@
 .my-hover:hover button{
     background-color: rgb(238, 238, 238);
 }
+
+.my-txt-area{
+    height: 100px;
+    resize: none;
+}
