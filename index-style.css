@@ -2,9 +2,6 @@
 .header-txt{
     font-size: 14px;
 }
-
-
-
 /* Utils  */
 #logo{
     width: 50px;
@@ -26,3 +23,20 @@
     height: 100px;
     resize: none;
 }
+
+/* Main section  */
+.my-border>li{
+    border: none;
+    padding-left: 0.5rem;
+}
+
+.my-button{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
