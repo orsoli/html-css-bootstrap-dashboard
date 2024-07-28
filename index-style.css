@@ -24,6 +24,10 @@
     resize: none;
 }
 
+.white-filter{
+    filter: invert(1);
+}
+
 /* Main section  */
 .my-border>li{
     border: none;
